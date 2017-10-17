@@ -4,9 +4,11 @@ This Makefile allows to operate with dcape server application configs which serv
 
 ## Setup
 
-* git clone git@github.com:dopos/dcape-config-cli.git
-* make .env
+* git clone https://github.com/dopos/dcape-config-cli.git
+* make .env 
 * [write dcape attributes to .env]
+
+`CIS access token` доступен на сервере CIS после авторизации (для авторизации открыть ссылку "Config store" и обновить страницу)
 
 ## Usage
 
