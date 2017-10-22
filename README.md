@@ -2,10 +2,10 @@
 
 [![GitHub Release][1]][2] [![GitHub code size in bytes][3]]() [![GitHub license][4]][5]
 
-[1]: https://img.shields.io/github/release/dopos/dcape-app-mattermost.svg
-[2]: https://github.com/dopos/dcape-app-mattermost/releases
-[3]: https://img.shields.io/github/languages/code-size/dopos/dcape-app-mattermost.svg
-[4]: https://img.shields.io/github/license/dopos/dcape-app-mattermost.svg
+[1]: https://img.shields.io/github/release/dopos/dcape-config-cli.svg
+[2]: https://github.com/dopos/dcape-config-cli/releases
+[3]: https://img.shields.io/github/languages/code-size/dopos/dcape-config-cli.svg
+[4]: https://img.shields.io/github/license/dopos/dcape-config-cli.svg
 [5]: LICENSE
 
 Command line interface for [dcape](https://github.com/dopos/dcape) config storage [enfist](https://github.com/pgrpc/pgrpc-sql-enfist).
