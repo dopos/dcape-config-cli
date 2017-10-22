@@ -1,6 +1,24 @@
-# dcape-config-cli - command line interface for dcape config storage
+# dcape-config-cli
+
+[![GitHub Release][1]][2] [![GitHub code size in bytes][3]]() [![GitHub license][4]][5]
+
+[1]: https://img.shields.io/github/release/dopos/dcape-app-mattermost.svg
+[2]: https://github.com/dopos/dcape-app-mattermost/releases
+[3]: https://img.shields.io/github/languages/code-size/dopos/dcape-app-mattermost.svg
+[4]: https://img.shields.io/github/license/dopos/dcape-app-mattermost.svg
+[5]: LICENSE
+
+Command line interface for [dcape](https://github.com/dopos/dcape) config storage [enfist](https://github.com/pgrpc/pgrpc-sql-enfist).
 
 This Makefile allows to operate with dcape server application configs which served via [enfist](https://github.com/pgrpc/pgrpc-sql-enfist) RPC.
+
+## Docker image used
+
+* none (used connect to remote dcape server)
+
+## Requirements
+
+* linux (git, make, curl, jq)
 
 ## Setup
 
@@ -23,7 +41,7 @@ This Makefile allows to operate with dcape server application configs which serv
 * [ ] make push - сохранить все конфиги из текущего каталога на сервер деплоя
 * [ ] make pull - выгрузить в текущий каталог все конфиги с сервера деплоя
 
-## LICENSE
+## License
 
 The MIT License (MIT), see [LICENSE](LICENSE).
 
