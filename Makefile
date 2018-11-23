@@ -21,7 +21,7 @@ all: help
 ## get env tag list store, `make ls`
 ls:
 	@echo -e "** Configs at server $${ENFIST_URL}:\n" ; \
-	curl -gs -H "X-narra-token: $$CIS_TOKEN" "$${ENFIST_URL}/tag" | jq -r '.[].code'
+	curl -gs -b "narra_token=$$CIS_TOKEN" "$${ENFIST_URL}/tag" | jq -r '.[].code'
 
 ## cat data of env tag from store, `make cat TAG=app--config--tag[.env]`
 cat:
